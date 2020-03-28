@@ -13,7 +13,7 @@
                 <MenuItem Header="_Example 2" Click="Example2_Click"/>
                 <Separator>
                 </Separator>
-                <MenuItem Header="_Sair"></MenuItem>
+                <MenuItem Header="_Sair" Click="Sair_Click"></MenuItem>
             </MenuItem>
         </Menu>
     </Grid>
