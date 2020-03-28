@@ -19,3 +19,5 @@ E:\lab\github\Dotnet-Everywhere\RegexDemo\RegexDemo\obj\Debug\netcoreapp3.1\Rege
 E:\lab\github\Dotnet-Everywhere\RegexDemo\RegexDemo\obj\Debug\netcoreapp3.1\RegexDemo.genruntimeconfig.cache
 E:\lab\github\Dotnet-Everywhere\RegexDemo\RegexDemo\obj\Debug\netcoreapp3.1\Example1.g.cs
 E:\lab\github\Dotnet-Everywhere\RegexDemo\RegexDemo\obj\Debug\netcoreapp3.1\Example1.baml
+E:\lab\github\Dotnet-Everywhere\RegexDemo\RegexDemo\obj\Debug\netcoreapp3.1\Example2.g.cs
+E:\lab\github\Dotnet-Everywhere\RegexDemo\RegexDemo\obj\Debug\netcoreapp3.1\Example2.baml

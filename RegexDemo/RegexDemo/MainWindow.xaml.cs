@@ -17,5 +17,11 @@ namespace RegexDemo
             Example1 example1 = new Example1();
             example1.Show();
         }
+
+        private void Example2_Click(object sender, RoutedEventArgs e)
+        {
+            Example2 example2 = new Example2();
+            example2.Show();
+        }
     }
 }

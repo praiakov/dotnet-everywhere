@@ -10,6 +10,7 @@
         <Menu>
             <MenuItem Header="_Arquivo">
                 <MenuItem Header="_Example 1" Click="Example1_Click"/>
+                <MenuItem Header="_Example 2" Click="Example2_Click"/>
                 <Separator>
                 </Separator>
                 <MenuItem Header="_Sair"></MenuItem>
