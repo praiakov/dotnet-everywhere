@@ -1,0 +1,19 @@
+﻿<Window x:Class="RegexDemo.Example1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegexDemo" xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        mc:Ignorable="d"
+        Title="Example1" Height="450" Width="800">
+    <Grid>
+        <Custom:DataGrid x:Name="dgData" Margin="77,57,76,138" AutoGenerateColumns="False"                         
+                         CanUserAddRows="True" CanUserDeleteRows="True" Background="LightGray">
+            <Custom:DataGrid.Columns>
+                <Custom:DataGridTextColumn Header="Dia da Semana" Binding="{Binding DiaSemana}" IsReadOnly="True"/>
+                <Custom:DataGridTextColumn Header="Mês/ Dia" Binding="{Binding MesDia}" IsReadOnly="True"/>
+            </Custom:DataGrid.Columns>
+        </Custom:DataGrid>
+        <Button Content="Matches" HorizontalAlignment="Left" Margin="604,328,0,0" VerticalAlignment="Top" Height="39" Width="120" Click="Match_Click"/>
+    </Grid>
+</Window>
