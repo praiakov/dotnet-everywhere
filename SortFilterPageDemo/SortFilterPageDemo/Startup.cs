@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ReflectionIT.Mvc.Paging;
 using SortFilterPageDemo.Data;
 
 namespace SortFilterPageDemo
@@ -22,6 +23,10 @@ namespace SortFilterPageDemo
             services.AddDbContext<MeuDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
+
+            services.AddPaging(options => {
+                options.ViewName = "Bootstrap4";
+            });
 
             services.AddControllersWithViews();
         }

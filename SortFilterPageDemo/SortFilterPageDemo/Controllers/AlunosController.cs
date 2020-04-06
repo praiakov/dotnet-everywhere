@@ -5,6 +5,7 @@ using SortFilterPageDemo.Data;
 using SortFilterPageDemo.Models;
 using System.Threading.Tasks;
 using System.Linq;
+using ReflectionIT.Mvc.Paging;
 
 namespace SortFilterPageDemo.Controllers
 {
@@ -22,7 +23,6 @@ namespace SortFilterPageDemo.Controllers
             string searchString,
             int? pageNumber)
         {
-
             if (searchString != null)
             {
                 pageNumber = 1;
@@ -31,7 +31,6 @@ namespace SortFilterPageDemo.Controllers
             {
                 searchString = currentFilter;
             }
-
             ViewData["CurrentFilter"] = searchString;
 
             var students = from s in _context.Alunos
@@ -42,10 +41,12 @@ namespace SortFilterPageDemo.Controllers
                 students = students.Where(s => s.Nome.Contains(searchString));
             }
 
+
             int pageSize = 3;
 
             return View(await PaginatedList<Aluno>.CreateAsync(students.AsNoTracking(), pageNumber ?? 1, pageSize));
 
         }
+
     }
 }
