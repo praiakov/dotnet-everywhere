@@ -430,13 +430,10 @@ E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\SortFilterPageDemo.pdb
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\SortFilterPageDemo.genruntimeconfig.cache
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Index.cshtml.g.cs
-E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\SortFilterPageDemo.csprojAssemblyReference.cache
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\bin\Debug\netcoreapp3.1\ReflectionIT.Mvc.Paging.Views.dll
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\bin\Debug\netcoreapp3.1\ReflectionIT.Mvc.Paging.dll
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\SortFilterPageDemo.csproj.CoreCompileInputs.cache
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\SortFilterPageDemo.MvcApplicationPartsAssemblyInfo.cs
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\SortFilterPageDemo.MvcApplicationPartsAssemblyInfo.cache
-E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Lista.cshtml.g.cs
-E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Pager\SmallPager.cshtml.g.cs
-E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SmallPager.cshtml.g.cs
 E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
+E:\lab\github\Dotnet-Everywhere\SortFilterPageDemo\SortFilterPageDemo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Pager\SmallPager.cshtml.g.cs

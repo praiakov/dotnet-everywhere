@@ -27,7 +27,7 @@ using SortFilterPageDemo.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dad4844b77da6b58e1692d6bb8598fb4831db957", @"/Views/Shared/Components/Pager/SmallPager.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8ec1a92f6dec30d7fa2fdbaac0f9167dd6d44e77", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"55fa83e69a0ee593d27943d1f39e472c94220288", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Pager_SmallPager : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ReflectionIT.Mvc.Paging.IPagingList>
     {
         #pragma warning disable 1998

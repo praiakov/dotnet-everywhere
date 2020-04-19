@@ -1,6 +1,5 @@
 ﻿@model ReflectionIT.Mvc.Paging.PagingList<SortFilterPageDemo.Models.Aluno>
-@using ReflectionIT.Mvc.Paging
-@addTagHelper *, ReflectionIT.Mvc.Paging
+
 
 @{
     ViewData["Title"] = "Suppliers";
@@ -8,9 +7,9 @@
 
 <h2>Suppliers</h2>
 
-<nav aria-label="Suppliers navigation example">
+@*<nav aria-label="Suppliers navigation example">
     @await this.Component.InvokeAsync("Pager", new { pagingList = this.Model })
-</nav>
+</nav>*@
 
 <table class="table">
     <thead>
@@ -32,6 +31,6 @@
     </tbody>
 </table>
 
-<nav aria-label="Suppliers navigation example">
+<nav aria-label="anha navigation example">
     <vc:pager paging-list="@Model" />
 </nav>
