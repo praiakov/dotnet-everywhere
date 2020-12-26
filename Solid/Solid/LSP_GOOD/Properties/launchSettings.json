@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LSP_GOOD": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\lab\\github\\Dotnet-Everywhere\\Solid\\Solid\\LSP_GOOD"
+    }
+  }
+}
