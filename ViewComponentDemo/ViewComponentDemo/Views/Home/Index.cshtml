@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2>Teste envolvendo o uso de View Components no ASP.NET Core 1.0</h2>
+
+    <p>
+        <h2>Novas tecnologias:</h2>
+    </p>
+    @await Component.InvokeAsync("Lista",
+        new { sequencia = ".NET Core 1.0|ASP.NET Core 1.0|AngularJS" })
+</div>
