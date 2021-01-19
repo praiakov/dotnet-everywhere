@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Abstract
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - FactoryMethod", "2 - FactoryMethod", "{600FD0D4-D8EE-400D-A9B3-61F6EB3D614B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{131BFCAC-1E0A-4368-8866-4F3CEAC9E1FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{131BFCAC-1E0A-4368-8866-4F3CEAC9E1FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Facade", "3 - Facade", "{D2BEFCBE-7059-465E-B297-93A9068BC6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{AEC73952-0E1B-4E5B-9CC7-275D5E049762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{131BFCAC-1E0A-4368-8866-4F3CEAC9E1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131BFCAC-1E0A-4368-8866-4F3CEAC9E1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131BFCAC-1E0A-4368-8866-4F3CEAC9E1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC73952-0E1B-4E5B-9CC7-275D5E049762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC73952-0E1B-4E5B-9CC7-275D5E049762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC73952-0E1B-4E5B-9CC7-275D5E049762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC73952-0E1B-4E5B-9CC7-275D5E049762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{02F542DB-1FD7-4297-A5E1-D55CBD869EE7} = {259D2A61-BE93-4FAD-B56B-F2D2A5D69485}
 		{131BFCAC-1E0A-4368-8866-4F3CEAC9E1FA} = {600FD0D4-D8EE-400D-A9B3-61F6EB3D614B}
+		{AEC73952-0E1B-4E5B-9CC7-275D5E049762} = {D2BEFCBE-7059-465E-B297-93A9068BC6E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {480316F0-DDB2-4739-9634-1F32041BD68B}
