@@ -1,0 +1,16 @@
+﻿@page "/"
+@using System.Collections
+
+<h1>Hello, Slider!</h1>
+
+
+<RadzenSlider @bind-Value=@valueWithStep TValue="int" Step="1" Max="10" Change=OnChange /><h3 style="margin-top: 2rem">Slider with Step 10 @valueWithStep</h3>
+
+@code {
+    int valueWithStep = 0;
+
+    void OnChange()
+    {
+        valueWithStep++;
+    }
+}
