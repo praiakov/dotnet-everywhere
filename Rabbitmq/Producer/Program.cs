@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Common;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace GettingStartedMassTranssit
+namespace Producer
 {
     public class Program
     {
@@ -19,16 +16,17 @@ namespace GettingStartedMassTranssit
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddMassTransit(x =>{
+                    services.AddMassTransit(x =>
+                    {
                         x.AddConsumer<MessageConsumer>();
 
-                        x.UsingRabbitMq((context,cfg) =>
+                        x.UsingRabbitMq((context, cfg) =>
                         {
                             cfg.ConfigureEndpoints(context);
                         });
                     });
+                    services.AddMassTransitHostedService();
 
-                    services.AddMassTransitHostedService(true);
                     services.AddHostedService<Worker>();
                 });
     }
